@@ -1,0 +1,47 @@
+<!--pages/donate/donate.wxml-->
+<view class="main">
+	<view class="wrap">
+		<image class="head" mode="widthFix" src="../../src/images/logo.png"></image>
+		<view class="info">
+			<image class="fl ava" src="../../src/images/ava.png"></image>
+			<view class="dot fl"></view>
+			<view class="name fl">
+				<text class="nick">喜宝</text>
+				<text class="wxid">XIBAO1005</text>
+			</view>
+		</view>
+		<text class="record"> 4月3日-26日，活动捐赠记录：</text>
+		<view class="list">
+			<view class="item">
+				<text class="num">4</text>
+				<text class="desc">月</text>
+				<text class="num">3</text>
+				<text class="desc">日消费金额</text>
+				<text class="num">3000</text>
+				<text class="desc">元，捐赠</text>
+				<text class="num">30</text>
+				<text class="desc">元</text>
+				<text class="do-btn done">已捐赠</text>
+			</view>
+			<view class="item">
+				<text class="num">4</text>
+				<text class="desc">月</text>
+				<text class="num">3</text>
+				<text class="desc">日消费金额</text>
+				<text class="num">3000</text>
+				<text class="desc">元，捐赠</text>
+				<text class="num">30</text>
+				<text class="desc">元</text>
+				<text class="do-btn not-ready" bindtap="donate">捐赠</text>
+			</view>
+		</view>
+		<view class="bgm"></view>
+		<view class="percent">您的每一笔捐赠按照消费金额的<text class="num">1%</text>提取</view>
+		<view class="sum">您累计捐赠公益金<text class="num">30</text>元</view>
+		<image class="to_share" src="../../src/images/to_share.png" bindtap="share"></image>
+	</view>
+</view>
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<view class="modalDlg" wx:if="{{showModal}}" bindtap="closeModal">
+	<image src="../../src/images/share.png" mode="widthFix" bindtap="share"></image>
+</view>

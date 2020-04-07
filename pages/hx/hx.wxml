@@ -1,0 +1,43 @@
+<!--pages/hx/hx.wxml-->
+<view class="main">
+	<view class="wrap">
+		<image src="http://118.31.66.218:8080/pic/topic_hx.png" class="head" mode="widthFix"></image>
+		<text class="sum">该计划已累计<text class="total">50000</text>元</text>
+		<view class="donate-wrap">
+			<view class="donate-list">
+				<view class="item">
+					<text class="no fl">NO.1</text>
+					<image src="../../src/images/ava.png" class="fl"></image>
+					<text class="fl name">喜宝</text>
+					<text class="fr money">捐赠金额：3000元</text>
+				</view>
+				<view class="item">
+					<text class="no fl">NO.2</text>
+					<image src="../../src/images/ava.png" class="fl"></image>
+					<text class="fl name">喜爱</text>
+					<text class="fr money">捐赠金额：3000元</text>
+				</view>
+				<view class="item">
+					<text class="no fl">NO.3</text>
+					<image src="../../src/images/ava.png" class="fl"></image>
+					<text class="fl name">欢喜哥</text>
+					<text class="fr money">捐赠金额：3000元</text>
+				</view>
+				<view class="item">
+					<text class="no fl">NO.4</text>
+					<image src="../../src/images/ava.png" class="fl"></image>
+					<text class="fl name">席秀秀</text>
+					<text class="fr money">捐赠金额：3000元</text>
+				</view>
+				<view class="item">
+					<text class="no fl">NO.5</text>
+					<image src="../../src/images/ava.png" class="fl"></image>
+					<text class="fl name">LINDA</text>
+					<text class="fr money">捐赠金额：3000元</text>
+				</view>
+			</view>
+		</view>
+		<image src="../../src/images/btn_join.png" class="join"></image>
+	</view>
+</view>
+

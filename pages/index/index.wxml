@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="main">
+  <image src="../../src/images/head@2x.png" class="head"></image>
+  <text class="sum">目前累计公益金<text class="total">50000</text>元</text>
+  <view class="pic" bindtap="toCSJ">
+	  <image src="../../src/images/csj.png"></image>
+	  <text class="people">300</text>
+	  <text class="money">15000</text>
+  </view>
+  <view class="pic" bindtap="toHX">
+  	  <image src="../../src/images/hx.png"></image>
+	  <text class="people" style="top: 90rpx;">300</text>
+	  <text class="money" style="top: 124rpx;">15000</text>
+  </view>
+  <view class="pic" bindtap="toJT">
+  	  <image src="../../src/images/jt.png"></image>
+	  <text class="people">300</text>
+	  <text class="money">15000</text>
+  </view>
+  <text class="choose">选择一个计划，用爱心点亮它</text>
+</view>
