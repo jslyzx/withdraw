@@ -128,7 +128,7 @@
 }
 
 .bgm {
-	background-image: url(http://118.31.66.218:8080/pic/bgm.png);
+	background-image: url('http://118.31.66.218:8080/pic/bgm.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	position: absolute;
