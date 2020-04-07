@@ -75,5 +75,8 @@ Page({
 		this.setData({
 			showModal: false
 		})
+		wx.navigateTo({
+			url: '../share/share?type=' + this.data.type
+		})
 	}
 })

@@ -1,5 +1,5 @@
 /* pages/share/share.wxss */
-.main{
+.main {
 	background-color: rgba(38, 209, 195, .7);
 	position: absolute;
 	top: 0;
@@ -7,10 +7,103 @@
 	left: 0;
 	right: 0;
 }
-.main .wrap{
+
+.main .wrap {
 	width: 90%;
-	height: calc(100% - 80rpx);
+	height: calc(100% - 40rpx);
 	border: 4rpx solid #fff;
-	margin: 36rpx auto;
+	margin: 16rpx auto;
 	border-radius: 26rpx;
+	padding: 20px 8%;
+	box-sizing: border-box;
+}
+
+.wrap .head {
+	width: 100%;
+}
+
+.topic,
+.bottom {
+	width: 100%;
+}
+
+.bottom {
+	margin-top: 20rpx;
+}
+
+.desc {
+	overflow: hidden;
+	margin: 14rpx 0;
+}
+
+.info{
+	width: 53%;
+	float: left;
+}
+.info .ava{
+	width: 80rpx;
+	height: 80rpx;
+	border-radius: 50%;
+}
+.top-border{
+	height: 6rpx;
+	background-color: #fff;
+	margin-bottom: 4rpx;
+}
+.bottom-border{
+	height: 6rpx;
+	background-color: #fff;
+	margin-top: 4rpx;
+}
+.invite{
+	width: 45%;
+	float: right;
+}
+.invite .text{
+	display: block;
+	font-family: 'zihun167hao-yirenhei';
+	color: #3D3D3D;
+	font-size: 40rpx;
+	text-align: right;
+}
+.fl{
+	float: left;
+}
+.inner{
+	overflow: hidden;
+}
+.dot {
+	width: 20rpx;
+	height: 20rpx;
+	border-radius: 20rpx;
+	background-color: #3D3D3D;
+	margin-left: 20rpx;
+	margin-top: 26rpx;
+	margin-right: 20rpx;
+}
+.nick {
+	display: block;
+	font-family: 'zihun167hao-yirenhei';
+	font-size: 36rpx;
+	color: #3D3D3D;
+	display: block;
+	text-align: justify;
+	border-bottom: 6rpx solid #3D3D3D;
+	height: 48rpx;
+}
+
+.nick:after {
+	display: inline-block;
+	width: 100%;
+	content: '';
+}
+
+.wxid {
+	display: block;
+	font-family: '方正兰亭黑_GBK';
+	color: #3D3D3D;
+	font-size: 24rpx;
+	max-width: 200rpx;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }

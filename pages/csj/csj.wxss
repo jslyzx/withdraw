@@ -11,7 +11,7 @@
 
 .wrap {
 	width: 74%;
-	margin: 50rpx auto 0;
+	margin: 40rpx auto 0;
 }
 
 .wrap .head {
@@ -35,8 +35,8 @@
 	display: block;
 	margin: 0 auto;
 	width: 360rpx;
-	height: 70rpx;
-	margin-top: 20rpx;
+	height: 60rpx;
+	margin-top: 16rpx;
 }
 
 .donate-wrap {

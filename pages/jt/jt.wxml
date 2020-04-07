@@ -37,6 +37,10 @@
 				</view>
 			</view>
 		</view>
-		<image src="../../src/images/btn_join.png" class="join"></image>
+		<image src="../../src/images/btn_join.png" class="join" bindtap="join"></image>
 	</view>
+</view>
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<view class="modalDlg" wx:if="{{showModal}}" bindtap="closeModal">
+	<image src="../../src/images/no-record.png" mode="widthFix"></image>
 </view>

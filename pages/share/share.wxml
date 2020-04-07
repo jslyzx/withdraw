@@ -1,6 +1,27 @@
 <!--pages/share/share.wxml-->
 <view class="main">
 	<view class="wrap">
+		<image src="../../src/images/detail_head.png" mode="widthFix" class="head"></image>
 		
+		<view class="desc">
+			<view class="info">
+				<view class="top-border"></view>
+				<view class="inner">
+					<image class="ava fl" src="../../src/images/ava.png"></image>
+					<view class="dot fl"></view>
+					<view class="name fl">
+						<text class="nick">喜宝</text>
+						<text class="wxid">XIBAO1005</text>
+					</view>
+				</view>
+				<view class="bottom-border"></view>
+			</view>
+			<view class="invite">
+				<text class="text">亲爱的朋友</text>
+				<text class="text">我正在参与</text>
+			</view>
+		</view>
+		<image src="../../src/images/detail_csj.png" mode="widthFix" class="topic"></image>
+		<image src="../../src/images/detail_bottom.png" mode="widthFix" class="bottom" show-menu-by-longpress="true"></image>
 	</view>
 </view>
