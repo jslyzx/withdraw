@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view class="main">
-  <image src="../../src/images/head@2x.png" class="head"></image>
+  <image src="../../src/images/head@2x.png" class="head" mode="widthFix"></image>
   <text class="sum">目前累计公益金<text class="total">50000</text>元</text>
   <view class="pic" bindtap="toCSJ">
 	  <image src="../../src/images/csj.png"></image>
