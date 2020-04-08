@@ -64,7 +64,7 @@ Page({
 	 */
 	onShareAppMessage: function() {
 		return {
-			title: '自定义转发标题',
+			title: '快与我一起加入野生动物保护计划吧',
 			path: 'pages/index/index'
 		}
 	}

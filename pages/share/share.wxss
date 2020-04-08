@@ -36,42 +36,54 @@
 	margin: 14rpx 0;
 }
 
-.info{
+.info {
 	width: 53%;
 	float: left;
 }
-.info .ava{
+
+.info .ava {
 	width: 80rpx;
 	height: 80rpx;
 	border-radius: 50%;
 }
-.top-border{
+
+.top-border {
 	height: 6rpx;
 	background-color: #fff;
 	margin-bottom: 4rpx;
 }
-.bottom-border{
+
+.bottom-border {
 	height: 6rpx;
 	background-color: #fff;
 	margin-top: 4rpx;
 }
-.invite{
+
+.invite {
 	width: 45%;
 	float: right;
 }
-.invite .text{
+
+.invite .text {
 	display: block;
 	font-family: 'zihun167hao-yirenhei';
 	color: #3D3D3D;
 	font-size: 40rpx;
 	text-align: right;
 }
-.fl{
+
+.fl {
 	float: left;
 }
-.inner{
+
+.fr {
+	float: right;
+}
+
+.inner {
 	overflow: hidden;
 }
+
 .dot {
 	width: 20rpx;
 	height: 20rpx;
@@ -81,6 +93,7 @@
 	margin-top: 26rpx;
 	margin-right: 20rpx;
 }
+
 .nick {
 	display: block;
 	font-family: 'zihun167hao-yirenhei';
@@ -106,4 +119,39 @@
 	max-width: 200rpx;
 	white-space: nowrap;
 	text-overflow: ellipsis;
+}
+
+.btns {
+	overflow: hidden;
+	margin-top: 14rpx;
+}
+
+.btns .wx,
+.btns .download {
+	width: 100rpx;
+	height: 100rpx;
+	display: block;
+	margin: 10rpx auto;
+}
+
+.wx-wrap {
+	float: left;
+	width: 200rpx;
+	text-align: center;
+	color: transparent;
+	background-color: transparent;
+	padding: 0;
+	line-height: initial;
+}
+.wx-wrap:after{
+	display: none!important;
+}
+.down-wrap {
+	float: right;
+	width: 200rpx;
+	text-align: center;
+}
+.txt{
+	color: #fff;
+	font-size: 30rpx;
 }

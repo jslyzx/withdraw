@@ -23,5 +23,15 @@
 		</view>
 		<image src="../../src/images/detail_csj.png" mode="widthFix" class="topic"></image>
 		<image src="../../src/images/detail_bottom.png" mode="widthFix" class="bottom" show-menu-by-longpress="true"></image>
+		<view class="btns">
+			<button class="wx-wrap" open-type="share">
+				<image class="wx" src="../../src/images/weixin.png" bindtap="share"></image>
+				<text class="txt">分享给好友</text>
+			</button>
+			<view class="down-wrap">
+				<image class="download" src="../../src/images/download.png"></image>
+				<text class="txt">下载图片</text>
+			</view>
+		</view>
 	</view>
 </view>
