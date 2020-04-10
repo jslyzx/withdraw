@@ -1,9 +1,9 @@
 {
 	"pages": [
-		"pages/share/share",
 		"pages/index/index",
 		"pages/donate/donate",
 		"pages/jt/jt",
+		"pages/share/share",
 		"pages/hx/hx",
 		"pages/csj/csj"
 	],
